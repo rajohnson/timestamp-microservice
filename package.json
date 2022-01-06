@@ -1,0 +1,18 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Simple microservice that provides data about time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "freecodecamp",
+    "timestamp",
+    "time",
+    "microservice",
+    "node"
+  ],
+  "author": "Rob Johnson",
+  "license": "MIT"
+}
