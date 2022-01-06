@@ -4,7 +4,7 @@
   "description": "Simple microservice that provides data about time.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "freecodecamp",
@@ -14,5 +14,8 @@
     "node"
   ],
   "author": "Rob Johnson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
