@@ -6,7 +6,7 @@ app.listen(3000, () => {
 });
 
 app.get('/api/', (req, res) => {
-  const gmt = new Date().toString()
+  const utc = new Date().toUTCString()
   const ts = new Date().getTime()
-  res.send({unix: ts, msg: gmt});
+  res.send({unix: ts, utc: utc});
 });
