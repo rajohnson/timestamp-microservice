@@ -5,11 +5,6 @@ app.listen(3000, () => {
     console.log('Listening on port 3000.');
 });
 
-app.use((req, res, next) => {
-  req.requestTime = Date();
-  next();
-})
-
 function sendTime(req, res) {
   console.log('sending')
   res.send({unix: req.ts, utc: req.utc});
